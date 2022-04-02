@@ -1,0 +1,28 @@
+{
+  "name": "websocket",
+  "version": "1.0.0",
+  "description": "websocket을 활용한 채팅",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mobssie/websocket.git"
+  },
+  "keywords": [
+    "websocket",
+    "nodejs"
+  ],
+  "author": "mobssie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mobssie/websocket/issues"
+  },
+  "homepage": "https://github.com/mobssie/websocket#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "ws": "^8.5.0"
+  }
+}
